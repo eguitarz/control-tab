@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 550" width="1200" height="550">
+  <!-- Background -->
+  <rect width="1200" height="550" fill="#111111"/>
+  
+  <!-- Main interface mockup based on the screenshot -->
+  <g transform="translate(10, 10)">
+    <!-- Recreating the app interface as an SVG -->
+    <rect x="0" y="30" width="1180" height="500" rx="8" fill="#181818"/>
+    
+    <!-- Top search bar -->
+    <rect x="1020" y="52" width="150" height="24" rx="12" fill="#252525"/>
+    <text x="1045" y="68" font-family="Arial" font-size="10" fill="#8c8c8c">Filter tabs...</text>
+    <circle cx="1035" cy="64" r="6" fill="none" stroke="#8c8c8c" stroke-width="1.5"/>
+    
+    <!-- Close inactive tabs button -->
+    <rect x="1045" y="74" width="120" height="24" rx="4" fill="#482e2e"/>
+    <text x="1060" y="91" font-family="Arial" font-size="10" fill="#d6a4a4">Close inactive tabs</text>
+    
+    <!-- Column 1 - Quick Sidebar -->
+    <rect x="0" y="110" width="174" height="403" rx="8" fill="#1a1a1a"/>
+    <text x="11" y="129" font-family="Arial" font-size="12" font-weight="bold" fill="#e0e0e0">Quick Sidebar</text>
+    
+    <!-- Column 1 items -->
+    <rect x="10" y="145" width="154" height="30" rx="4" fill="#222222"/>
+    <circle cx="22" cy="160" r="8" fill="#d84c4c"/>
+    <text x="38" y="164" font-family="Arial" font-size="11" fill="#e0e0e0">Inbox - user@example.com</text>
+    
+    <!-- YouTube -->
+    <rect x="10" y="180" width="154" height="28" rx="4" fill="#222222"/>
+    <circle cx="22" cy="194" r="8" fill="#ff0000"/>
+    <text x="38" y="198" font-family="Arial" font-size="11" fill="#e0e0e0">YouTube</text>
+    
+    <!-- ChatGPT -->
+    <rect x="10" y="213" width="154" height="28" rx="4" fill="#222222"/>
+    <circle cx="22" cy="227" r="8" fill="#10a37f"/>
+    <text x="38" y="231" font-family="Arial" font-size="11" fill="#e0e0e0">ChatGPT</text>
+    
+    <!-- Issues -->
+    <rect x="10" y="246" width="154" height="28" rx="4" fill="#222222"/>
+    <circle cx="22" cy="260" r="8" fill="#6e5494"/>
+    <text x="38" y="264" font-family="Arial" font-size="11" fill="#e0e0e0">Issues - GitHub</text>
+    
+    <!-- Columns 2-5 -->
+    <!-- Column 2 - Development -->
+    <rect x="180" y="110" width="190" height="403" rx="8" fill="#1a1a1a"/>
+    <text x="190" y="129" font-family="Arial" font-size="12" fill="#e0e0e0">Development</text>
+    
+    <!-- Tab items for column 2 -->
+    <rect x="190" y="145" width="170" height="30" rx="4" fill="#222222"/>
+    <circle cx="203" cy="160" r="7" fill="#6e5494"/>
+    <text x="216" y="164" font-family="Arial" font-size="11" fill="#e0e0e0">Issues - Control-Tab</text>
+    
+    <rect x="190" y="180" width="170" height="28" rx="4" fill="#222222"/>
+    <circle cx="203" cy="194" r="7" fill="#6e5494"/>
+    <text x="216" y="198" font-family="Arial" font-size="11" fill="#e0e0e0">Add cancel button to clear</text>
+    
+    <rect x="190" y="213" width="170" height="28" rx="4" fill="#222222"/>
+    <circle cx="203" cy="227" r="7" fill="#6e5494"/>
+    <text x="216" y="231" font-family="Arial" font-size="11" fill="#e0e0e0">Integrate Supabase Auth</text>
+    
+    <!-- Column 3 - Resources -->
+    <rect x="376" y="110" width="190" height="403" rx="8" fill="#1a1a1a"/>
+    <text x="386" y="129" font-family="Arial" font-size="12" fill="#e0e0e0">Resources</text>
+    
+    <!-- Tab items for column 3 -->
+    <rect x="386" y="145" width="170" height="30" rx="4" fill="#222222"/>
+    <circle cx="399" cy="160" r="7" fill="#d84c4c"/>
+    <text x="412" y="164" font-family="Arial" font-size="11" fill="#e0e0e0">Inbox - user@example.com</text>
+    
+    <rect x="386" y="180" width="170" height="28" rx="4" fill="#222222"/>
+    <circle cx="399" cy="194" r="7" fill="#4285f4"/>
+    <text x="412" y="198" font-family="Arial" font-size="11" fill="#e0e0e0">Google Calendar</text>
+    
+    <rect x="386" y="213" width="170" height="28" rx="4" fill="#28273a"/>
+    <circle cx="399" cy="227" r="7" fill="#635bff"/>
+    <text x="412" y="231" font-family="Arial" font-size="11" fill="#e0e0e0">Stripe API Docs</text>
+    
+    <!-- Column 4 - Development Tools -->
+    <rect x="572" y="110" width="190" height="403" rx="8" fill="#1a1a1a"/>
+    <text x="582" y="129" font-family="Arial" font-size="12" fill="#e0e0e0">Coding &amp; Development Tools</text>
+    
+    <!-- Tab items for column 4 -->
+    <rect x="582" y="145" width="170" height="30" rx="4" fill="#222222"/>
+    <circle cx="595" cy="160" r="7" fill="#10a37f"/>
+    <text x="608" y="164" font-family="Arial" font-size="11" fill="#e0e0e0">Claude AI</text>
+    
+    <rect x="582" y="180" width="170" height="28" rx="4" fill="#222222"/>
+    <circle cx="595" cy="194" r="7" fill="#4285f4"/>
+    <text x="608" y="198" font-family="Arial" font-size="11" fill="#e0e0e0">TypeScript Docs</text>
+    
+    <rect x="582" y="213" width="170" height="28" rx="4" fill="#222222"/>
+    <circle cx="595" cy="227" r="7" fill="#7b68ee"/>
+    <text x="608" y="231" font-family="Arial" font-size="11" fill="#e0e0e0">VS Code Extension API</text>
+    
+    <!-- Column 5 - Social -->
+    <rect x="768" y="110" width="190" height="403" rx="8" fill="#1a1a1a"/>
+    <text x="778" y="129" font-family="Arial" font-size="12" fill="#e0e0e0">Social &amp; Entertainment</text>
+    
+    <!-- Tab items for column 5 with Stripe highlighting -->
+    <rect x="778" y="145" width="170" height="30" rx="4" fill="#222222"/>
+    <circle cx="791" cy="160" r="7" fill="#1877f2"/>
+    <text x="804" y="164" font-family="Arial" font-size="11" fill="#e0e0e0">Facebook</text>
+    
+    <rect x="778" y="180" width="170" height="28" rx="4" fill="#222222"/>
+    <circle cx="791" cy="194" r="7" fill="#ff0000"/>
+    <text x="804" y="198" font-family="Arial" font-size="11" fill="#e0e0e0">YouTube</text>
+    
+    <rect x="778" y="213" width="170" height="28" rx="4" fill="#28273a"/>
+    <circle cx="791" cy="227" r="7" fill="#635bff"/>
+    <text x="804" y="231" font-family="Arial" font-size="11" fill="#e0e0e0">Stripe - Checkout Elements</text>
+    
+    <rect x="778" y="246" width="170" height="28" rx="4" fill="#222222"/>
+    <circle cx="791" cy="260" r="7" fill="#00acee"/>
+    <text x="804" y="264" font-family="Arial" font-size="11" fill="#e0e0e0">Twitter / X</text>
+    
+    <!-- Column 6 - Admin -->
+    <rect x="964" y="110" width="190" height="403" rx="8" fill="#1a1a1a"/>
+    <text x="974" y="129" font-family="Arial" font-size="12" fill="#e0e0e0">Control Tab Admin</text>
+    
+    <!-- Tab items for column 6 with Stripe highlighting -->
+    <rect x="974" y="145" width="170" height="30" rx="4" fill="#222222"/>
+    <circle cx="987" cy="160" r="7" fill="#00f0ff"/>
+    <text x="1000" y="164" font-family="Arial" font-size="11" fill="#e0e0e0">Control Tab | Dashboard</text>
+    
+    <rect x="974" y="180" width="170" height="28" rx="4" fill="#222222"/>
+    <circle cx="987" cy="194" r="7" fill="#00f0ff"/>
+    <text x="1000" y="198" font-family="Arial" font-size="11" fill="#e0e0e0">Edge Functions</text>
+    
+    <rect x="974" y="213" width="170" height="28" rx="4" fill="#222222"/>
+    <circle cx="987" cy="227" r="7" fill="#00f0ff"/>
+    <text x="1000" y="231" font-family="Arial" font-size="11" fill="#e0e0e0">Client ID for Web Apps</text>
+    
+    <rect x="974" y="246" width="170" height="28" rx="4" fill="#28273a"/>
+    <circle cx="987" cy="260" r="7" fill="#635bff"/>
+    <text x="1000" y="264" font-family="Arial" font-size="11" fill="#e0e0e0">Stripe - Customers</text>
+    
+    <rect x="974" y="279" width="170" height="28" rx="4" fill="#28273a"/>
+    <circle cx="987" cy="293" r="7" fill="#635bff"/>
+    <text x="1000" y="297" font-family="Arial" font-size="11" fill="#e0e0e0">Stripe - Developers</text>
+  </g>
+</svg>
