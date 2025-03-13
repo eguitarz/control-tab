@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Dark background -->
+  <rect width="32" height="32" fill="#000000" rx="2" ry="2" />
+  
+  <!-- Simplified Tab Shape with tron teal stroke -->
+  <path d="M8,10 L8,24 L24,24 L24,10 L19,10 C18.5,10 18,9.5 18,9 L18,8 L14,8 L14,9 C14,9.5 13.5,10 13,10 Z" 
+        fill="#000000" stroke="#00ffd9" stroke-width="1.5" stroke-linejoin="round" />
+  
+  <!-- Control element - three vertical bars with cyberpunk purple, better centered -->
+  <line x1="12.8" y1="13" x2="12.8" y2="21" stroke="#b967ff" stroke-width="2" stroke-linecap="round" />
+  <line x1="16" y1="13" x2="16" y2="21" stroke="#b967ff" stroke-width="2" stroke-linecap="round" />
+  <line x1="19.2" y1="13" x2="19.2" y2="21" stroke="#b967ff" stroke-width="2" stroke-linecap="round" />
+</svg>
